@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200,200,300;
+}
+
+body{
+    padding: 30px;
+}
+
+.top{
+    display: flex;
+    gap: 100px;
+}
+
+h1{
+    color: darkmagenta;
+}
+
+.icons{
+    width: 500px;
+    /* box-shadow: 5px 5px 10px blue; */
+
+}
+.icons p{
+background-color: #F7F3F8;
+margin-bottom: 10px;
+border-radius: 2px;
+padding: 8px;
+}
+
+.bottom{
+ display: grid;   
+ grid-template-columns: repeat(3,1fr);
+ gap: 15px;
+ padding-top: 50px;
+}
+
+.box-1{
+    background-color: #7F396E;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.box-2{
+    background-color: #7F396E;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.box-3{
+    background-color: #7F396E;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.profile{
+    shape-outside: circle(50%);
+}
+
+h5 img{
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.buyers{
+    color: violet;
+}
+
+h5{
+    margin-bottom: 5px;
+}
